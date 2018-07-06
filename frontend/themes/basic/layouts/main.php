@@ -68,7 +68,6 @@ AppAsset::register($this);
         <?= $content ?>
     </div>
 </div>
-This is BASIC THEME
 <footer class="footer">
     <div class="container">
         <p class="pull-left">&copy; <?= Html::encode(Yii::$app->name) ?> <?= date('Y') ?></p>

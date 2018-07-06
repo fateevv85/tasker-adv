@@ -1,0 +1,19 @@
+suite_namespace: frontend\tests\acceptance
+actor: AcceptanceTester
+modules:
+    enabled:
+#        - PhpBrowser:
+#            url: http://tasker-adv/
+#            url: http://localhost/
+        #- WebDriver:
+        #    url: http://localhost:8080
+        #    browser: firefox
+        - WebDriver:
+                     url: 'http://tasker-adv/'
+#                     url: 'http://localhost/'
+                     port: 9515
+                     browser: chrome
+                     capabilities:
+                         chromeOptions: # additional chrome options
+        - Yii2:
+            part: init
