@@ -13,7 +13,5 @@ modules:
 #                     url: 'http://localhost/'
                      port: 9515
                      browser: chrome
-                     capabilities:
-                         chromeOptions: # additional chrome options
         - Yii2:
             part: init
