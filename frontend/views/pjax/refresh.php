@@ -11,8 +11,6 @@ JS;
 //$this->registerJs($js);
 ?>
 
-
-
 <?php Pjax::begin(); ?>
 <?= \yii\helpers\Html::a('Refresh', ['pjax/refresh'], [
     'class' => 'btn btn-success',

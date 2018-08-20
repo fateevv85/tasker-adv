@@ -22,7 +22,9 @@
         "yiisoft/yii2-imagine": "^2.1",
         "guzzlehttp/guzzle": "^6.3",
         "facebook/webdriver": "^1.6",
-        "codeception/codeception": "^2.4"
+        "codeception/codeception": "^2.4",
+        "sonko-dmitry/yii2-telegram-bot-api": "^1.0",
+        "aki/yii2-bot-telegram": "^1.5"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

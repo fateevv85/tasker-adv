@@ -16,5 +16,9 @@ return [
             // for the mailer to send real emails.
             'useFileTransport' => true,
         ],
+        'bot' => [
+            'class' => \SonkoDmitry\Yii\TelegramBot\Component::class,
+            'apiToken' => '496311794:AAEPb9O2qTas760XS2bH6oOn552_XlcVNVM',
+        ],
     ],
 ];
